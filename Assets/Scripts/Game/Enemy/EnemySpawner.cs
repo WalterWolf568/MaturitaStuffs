@@ -1,3 +1,4 @@
+
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -10,6 +11,9 @@ public class EnemySpawner : MonoBehaviour
 
     [SerializeField]
     private float frequencyOfSpawn;
+
+    [SerializeField]
+    private char Spawner;
 
     private Vector2 _spawnPosition;
     private float _random;
@@ -27,20 +31,37 @@ public class EnemySpawner : MonoBehaviour
     private void Update()
     {
 
-            _timeUntilSpawn -= Time.deltaTime;
-            if (_timeUntilSpawn <= 0)
+        _timeUntilSpawn -= Time.deltaTime;
+        if (_timeUntilSpawn <= 0)
         {
+            /*  if (Spawner == 'a' || Spawner == 'c')
+              {
+                  _random = Random.Range(-12, 12);
+                  _spawnPosition = transform.position;
+                  _spawnPosition.x = _random;
+              }
+              else if (Spawner == 'b' || Spawner == 'd')
+              {
+                  _random = Random.Range(-7, 7);
+                  _spawnPosition = transform.position;
+                  _spawnPosition.y = _random;
+              }
+              else
+              {
+                  _spawnPosition = transform.position;
+              }*/
             _spawnPosition = transform.position;
-            _random = Random.Range(-30, 30);
-            _spawnPosition.x -= _random;
+
+
             Instantiate(_enemyPrefab, _spawnPosition , Quaternion.identity);
-                SetTimeUntilSpawn();
-            }
+        SetTimeUntilSpawn();
+        }
     }
 
     private void SetTimeUntilSpawn()
     {
-        _timeUntilSpawn = frequencyOfSpawn;
+        _random = Random.Range((float)-0.5, (float)0.5);
+        _timeUntilSpawn = frequencyOfSpawn + _random;
     }
 
     private void StopSpawning()

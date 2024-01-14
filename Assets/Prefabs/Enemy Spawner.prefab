@@ -46,4 +46,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _enemyPrefab: {fileID: 1838119012916571393, guid: 0f4731cb514ecf74da024fb7f986a2eb, type: 3}
   frequencyOfSpawn: 1
-  _Died: 0
+  Spawner: 42
+  _healthController: {fileID: 0}

@@ -5,17 +5,33 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
+    public bool friendly;
+    public int bulletDamage;
     private void Awake()
     {
         Destroy(gameObject, 5f);
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.GetComponent<Enemy>())
+        if (friendly)
         {
-            HealthController healthController = collision.GetComponent<HealthController>();
-            healthController.TakeDamage(10);
-            Destroy(gameObject);
+            if (collision.GetComponent<Enemy>())
+            {
+                HealthController healthController = collision.GetComponent<HealthController>();
+                Debug.Log(bulletDamage);
+                healthController.TakeDamage(bulletDamage);
+                Destroy(gameObject);
+
+            }
+        }
+        else
+        {
+            if (collision.GetComponent<PlayerShoot>())
+            {
+                HealthController healthController = collision.GetComponent<HealthController>();
+                healthController.TakeDamage(bulletDamage);
+                Destroy(gameObject);
+            }
             
         }
     }

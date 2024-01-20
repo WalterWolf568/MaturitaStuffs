@@ -10,6 +10,9 @@ public class EnemySpawner : MonoBehaviour
     private GameObject _enemyPrefab;
 
     [SerializeField]
+    private GameObject _shooterEnemyPrefab;
+
+    [SerializeField]
     private float frequencyOfSpawn;
 
     [SerializeField]
@@ -30,7 +33,7 @@ public class EnemySpawner : MonoBehaviour
 
     private void Update()
     {
-
+        int chance = Random.Range(1, 11);
         _timeUntilSpawn -= Time.deltaTime;
         if (_timeUntilSpawn <= 0)
         {
@@ -51,9 +54,14 @@ public class EnemySpawner : MonoBehaviour
                   _spawnPosition = transform.position;
               }*/
             _spawnPosition = transform.position;
-
-
-            Instantiate(_enemyPrefab, _spawnPosition , Quaternion.identity);
+            if (chance == 0 ||  chance == 1)
+            {
+                Instantiate(_shooterEnemyPrefab, _spawnPosition, Quaternion.identity);
+            }
+            else
+            {
+                Instantiate(_enemyPrefab, _spawnPosition, Quaternion.identity);
+            }
         SetTimeUntilSpawn();
         }
     }

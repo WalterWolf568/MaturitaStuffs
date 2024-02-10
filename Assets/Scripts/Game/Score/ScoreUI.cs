@@ -5,12 +5,9 @@ using TMPro;
 
 public class ScoreUI : MonoBehaviour
 {
+    [SerializeField]
     private TMP_Text _scoreText;
 
-    private void Awake()
-    {
-        _scoreText = GetComponent<TMP_Text>();
-    }
 
     public void UpdateScore(ScoreController scoreController)
     {

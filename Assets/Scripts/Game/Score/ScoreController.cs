@@ -10,7 +10,17 @@ public class ScoreController : MonoBehaviour
 
     public void AddScore(int amount)
     {
+        
         Score += amount;
         OnScoreChanged.Invoke();
+        CheckHighScore();
+    }
+
+    private void CheckHighScore()
+    {
+        if (Score > PlayerPrefs.GetInt("Highscore")) 
+        {
+            PlayerPrefs.SetInt("Highscore", Score);
+        }
     }
 }

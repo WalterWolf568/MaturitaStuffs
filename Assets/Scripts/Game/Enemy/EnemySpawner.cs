@@ -6,7 +6,6 @@ using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
-    [SerializeField]
     private GameObject _enemyPrefab;
 
     [SerializeField]
@@ -22,54 +21,89 @@ public class EnemySpawner : MonoBehaviour
     private float _random;
     private float _timeUntilSpawn;
 
+    public bool isSpawning = false;
+
     public HealthController _healthController;
+    public WaveController _waveController;
+    private int i = 0;
 
     private void Awake()
     {
         SetTimeUntilSpawn();
         _healthController = FindObjectOfType<HealthController>();
+        _waveController = FindObjectOfType<WaveController>();
         _healthController.OnDied.AddListener(StopSpawning);
     }
 
     private void Update()
     {
-        int chance = Random.Range(1, 11);
-        _timeUntilSpawn -= Time.deltaTime;
-        if (_timeUntilSpawn <= 0)
+       if(isSpawning == false)
         {
-            /*  if (Spawner == 'a' || Spawner == 'c')
-              {
-                  _random = Random.Range(-12, 12);
-                  _spawnPosition = transform.position;
-                  _spawnPosition.x = _random;
-              }
-              else if (Spawner == 'b' || Spawner == 'd')
-              {
-                  _random = Random.Range(-7, 7);
-                  _spawnPosition = transform.position;
-                  _spawnPosition.y = _random;
-              }
-              else
-              {
-                  _spawnPosition = transform.position;
-              }*/
-            _spawnPosition = transform.position;
-            if (chance == 0 ||  chance == 1)
+            _waveController.CreateWave();
+            WavePause();
+            isSpawning = true;
+        }
+        else
+        {
+            _timeUntilSpawn -= Time.deltaTime;
+            if (_timeUntilSpawn <= 0)
             {
-                Instantiate(_shooterEnemyPrefab, _spawnPosition, Quaternion.identity);
+                SetSpawnPosition();
+                if (i >= _waveController.WaveSize)
+                {
+                    i = 0;
+                    isSpawning = false;
+                }
+                _enemyPrefab = _waveController.Wave[i];
+                Instantiate(_enemyPrefab, _spawnPosition, transform.rotation);
+                SetTimeUntilSpawn();
+                i++;
             }
-            else
-            {
-                Instantiate(_enemyPrefab, _spawnPosition, Quaternion.identity);
-            }
-        SetTimeUntilSpawn();
         }
     }
-
     private void SetTimeUntilSpawn()
     {
         _random = Random.Range((float)-0.5, (float)0.5);
         _timeUntilSpawn = frequencyOfSpawn + _random;
+    }
+    private void WavePause()
+    {
+        StartCoroutine(WaveWaitCoroutine());
+    }
+    private void SetSpawnPosition()
+    {
+        _random = Random.Range(1, 4);
+        _spawnPosition.x = transform.position.x + 14;
+       
+        switch(_random)
+        {
+            
+            case 1:
+                _spawnPosition.x = transform.position.x + Random.Range(10, 15);
+                _spawnPosition.y = transform.position.y + Random.Range(10, 15);
+                break;
+            case 2:
+                _spawnPosition.x = transform.position.x + Random.Range(-10, -15);
+                _spawnPosition.y = transform.position.y + Random.Range(10, 15);
+                break;
+            case 3:
+                _spawnPosition.x = transform.position.x + Random.Range(10, 15);
+                _spawnPosition.y = transform.position.y + Random.Range(-10, -15);
+                break;
+            case 4:
+                _spawnPosition.x = transform.position.x + Random.Range(-10, -15);
+                _spawnPosition.y = transform.position.y + Random.Range(-10, -15);
+                break;
+            
+
+    }
+       
+}
+    private IEnumerator WaveWaitCoroutine()
+    {
+
+            yield return new WaitForSeconds(10);
+
     }
 
     private void StopSpawning()

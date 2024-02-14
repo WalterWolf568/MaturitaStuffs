@@ -13,13 +13,14 @@ public class Enemy : MonoBehaviour
 
     private Rigidbody2D _rigidbody;
     private Vector2 _playerPosition;
-    private Vector2 _directionToPlayer; 
+    private Vector2 _directionToPlayer;
 
+    private GameObject _Graphics;
 
     private void Awake()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
-        
+        _Graphics = transform.Find("Graphics").gameObject;
 
     }
 
@@ -37,9 +38,11 @@ public class Enemy : MonoBehaviour
 
         float angle = Mathf.Atan2(_directionToPlayer.y, _directionToPlayer.x) * Mathf.Rad2Deg;
         Quaternion targetRotation = Quaternion.Euler(0, 0, angle);
+        
 
         Quaternion rotation = Quaternion.RotateTowards(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
         _rigidbody.SetRotation(rotation);
+        _Graphics.transform.localRotation = Quaternion.Inverse(rotation);
     }
 
         private void SetVelocity()

@@ -3260,6 +3260,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5694834909134956543, guid: fe59eba2615404341ab695d0f88fd4eb, type: 3}
+      propertyPath: WaveTimeLength
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 6026690603563811134, guid: fe59eba2615404341ab695d0f88fd4eb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.7

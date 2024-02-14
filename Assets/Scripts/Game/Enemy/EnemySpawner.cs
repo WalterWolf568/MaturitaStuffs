@@ -12,7 +12,7 @@ public class EnemySpawner : MonoBehaviour
     private GameObject _shooterEnemyPrefab;
 
     [SerializeField]
-    private float frequencyOfSpawn;
+    private float WaveTimeLength = 10;
 
     [SerializeField]
     private char Spawner;
@@ -20,6 +20,8 @@ public class EnemySpawner : MonoBehaviour
     private Vector2 _spawnPosition;
     private float _random;
     private float _timeUntilSpawn;
+
+    private float frequencyOfSpawn = 0;
 
     public bool isSpawning = false;
 
@@ -63,18 +65,24 @@ public class EnemySpawner : MonoBehaviour
     }
     private void SetTimeUntilSpawn()
     {
-        _random = Random.Range((float)-0.5, (float)0.5);
-        _timeUntilSpawn = frequencyOfSpawn + _random;
+        if (_waveController != null && _waveController.WaveSize > 0)
+        {
+            frequencyOfSpawn = (WaveTimeLength - 2) / _waveController.WaveSize;
+            _timeUntilSpawn = frequencyOfSpawn;
+        }
+        else
+        {
+            _timeUntilSpawn = frequencyOfSpawn;
+            Debug.Log("_waveController.WaveSize je null nebo neco takovyho");
+        }
     }
     private void WavePause()
     {
-        StartCoroutine(WaveWaitCoroutine());
+        StartCoroutine(WaveWaitCoroutine(WaveTimeLength));
     }
     private void SetSpawnPosition()
     {
-        _random = Random.Range(1, 4);
-        _spawnPosition.x = transform.position.x + 14;
-       
+        _random = Random.Range(1, 5);
         switch(_random)
         {
             
@@ -99,10 +107,10 @@ public class EnemySpawner : MonoBehaviour
     }
        
 }
-    private IEnumerator WaveWaitCoroutine()
+    private IEnumerator WaveWaitCoroutine(float TimeToWait)
     {
 
-            yield return new WaitForSeconds(10);
+            yield return new WaitForSeconds(TimeToWait);
 
     }
 

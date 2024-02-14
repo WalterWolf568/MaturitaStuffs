@@ -17,6 +17,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]
     public Vector3 offset;
 
+
     private Rigidbody2D _rigidbody;
     private Vector2 _movementInput;
     private Vector2 _betterMovementInput;
@@ -39,6 +40,8 @@ public class PlayerMovement : MonoBehaviour
         _playerDirection = new Vector2(_mousePosition.x - transform.position.x, _mousePosition.y - transform.position.y);
         transform.right = _playerDirection;
 
+    
+
         _betterMovementInput = Vector2.SmoothDamp(
            _betterMovementInput,
            _movementInput,
@@ -48,6 +51,7 @@ public class PlayerMovement : MonoBehaviour
 
         _rigidbody.velocity = _betterMovementInput * speed;
         PreventPlayerGoingOffScreen();
+        SetAnimation();
         FlipGraphicsBasedOnMovement();
     }
     public void LateUpdate()
@@ -69,6 +73,11 @@ public class PlayerMovement : MonoBehaviour
         {
             _rigidbody.velocity = new Vector2(_rigidbody.velocity.x, 0);
         }
+    }
+    private void SetAnimation()
+    {
+        bool isMoving =_movementInput != Vector2.zero;
+        Graphics.GetComponent<Animator>().SetBool("isMoving", isMoving);
     }
 
     private void FlipGraphicsBasedOnMovement()

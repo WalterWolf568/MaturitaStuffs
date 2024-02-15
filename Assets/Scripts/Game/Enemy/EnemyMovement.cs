@@ -21,7 +21,6 @@ public class Enemy : MonoBehaviour
     {
         _rigidbody = GetComponent<Rigidbody2D>();
         _Graphics = transform.Find("Graphics").gameObject;
-
     }
 
     // Update is called once per frame
@@ -29,6 +28,7 @@ public class Enemy : MonoBehaviour
     {
         SetDirection();
         SetVelocity();
+        FlipGraphics();
     }
 
     private void SetDirection()
@@ -48,5 +48,17 @@ public class Enemy : MonoBehaviour
         private void SetVelocity()
     {
             _rigidbody.velocity = transform.right * speed;
+    }
+
+    private void FlipGraphics()
+    {
+        if (_rigidbody.velocity.x > 0)
+        {
+            _Graphics.transform.localScale = new Vector3(1,1,1);
+        }
+        else if(_rigidbody.velocity.x < 0)
+        {
+            _Graphics.transform.localScale = new Vector3(-1, 1, 1);
+        }
     }
 }

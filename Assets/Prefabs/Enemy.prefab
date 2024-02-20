@@ -32,7 +32,7 @@ Transform:
   m_GameObject: {fileID: 1838119012916571393}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0001, y: -0.006, z: -0.045877837}
+  m_LocalPosition: {x: 0.005, y: 0, z: -0.045877837}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -112,9 +112,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.02202025, y: 0.0036536455}
+  m_Offset: {x: -0.02202025, y: 0.007979333}
   serializedVersion: 2
-  m_Radius: 0.2178419
+  m_Radius: 0.16913345
 --- !u!114 &7489732090336478406
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -163,6 +163,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: EnemyScoreAllocator, Assembly-CSharp
         m_MethodName: AllocateScore
         m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 7390438940642633019}
+        m_TargetAssemblyTypeName: EnemyDestroyController, Assembly-CSharp
+        m_MethodName: DestroyEnemy
+        m_Mode: 4
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

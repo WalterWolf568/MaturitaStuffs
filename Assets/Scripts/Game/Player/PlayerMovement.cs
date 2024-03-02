@@ -6,7 +6,7 @@ using UnityEngine.InputSystem;
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField]
-    private float speed;
+    public float speed;
 
     [SerializeField]
     private float screenBorder;

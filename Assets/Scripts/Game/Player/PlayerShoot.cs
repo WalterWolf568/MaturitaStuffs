@@ -12,11 +12,14 @@ public class PlayerShoot : MonoBehaviour
     [SerializeField]
     private float bulletSpeed;
 
+    [SerializeField] 
+    public int bulletDamage = 5;   
+
     [SerializeField]
     private Transform gunOffset;
 
     [SerializeField]
-    private float timeBetweenShots;
+    public float timeBetweenShots;
 
     private bool _fireContinuously;
     private bool _fireSingle;
@@ -47,7 +50,7 @@ public class PlayerShoot : MonoBehaviour
     {
         GameObject bullet = Instantiate(bulletPrefab, gunOffset.position, transform.rotation);
         bullet.GetComponent<Bullet>().friendly = true;
-        bullet.GetComponent<Bullet>().bulletDamage = 10;
+        bullet.GetComponent<Bullet>().bulletDamage = bulletDamage;
         Rigidbody2D rigidbody = bullet.GetComponent<Rigidbody2D>();
         rigidbody.transform.Rotate(0, 0, 90f);
         rigidbody.velocity = bulletSpeed * transform.right;

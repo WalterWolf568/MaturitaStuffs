@@ -71,4 +71,10 @@ public class HealthController : MonoBehaviour
 
 
     }
+    public void AddMaxHealth(float amount)
+    {
+        maximumHealth += amount;
+        currentHealth += amount;
+        OnHealthChanged.Invoke();
+    }
 }

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class LevelController : MonoBehaviour
 {
@@ -10,6 +11,9 @@ public class LevelController : MonoBehaviour
     public float ExperienceNeeded = 15;
     private PlayerMovement PlayerMovement;
     private PlayerShoot PlayerShoot;
+    private LevelUpController LevelUpController;
+    [SerializeField]
+    private Canvas _Canvas;
     public float expPercentage = 0;
 
     [SerializeField]
@@ -18,10 +22,13 @@ public class LevelController : MonoBehaviour
     [SerializeField]
     private TMP_Text _LevelText;
 
+
+
     public void Awake()
     {
         PlayerMovement = GetComponent<PlayerMovement>();
         PlayerShoot = GetComponent<PlayerShoot>();
+        LevelUpController = _Canvas.GetComponentInChildren<LevelUpController>();
     }
 
     public void AddExperience(int amount)
@@ -36,11 +43,12 @@ public class LevelController : MonoBehaviour
             Debug.Log($"Level up: {Level}");
             ExperienceNeeded += 5;
             expPercentage = Experience / ExperienceNeeded;
+            LevelUpController.LevelUp();
+
+    
             UpdateLevelText();
             UpdateExpBar();
-            PlayerMovement.speed += 1;
-            PlayerShoot.bulletDamage += 1;
-            PlayerShoot.timeBetweenShots -= 0.1f;
+
         }
         else
         {

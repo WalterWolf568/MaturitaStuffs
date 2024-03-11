@@ -25,10 +25,18 @@ public class PlayerShoot : MonoBehaviour
     private bool _fireSingle;
     private float _lastTimeFire;
 
+    public bool canShoot = true;
     // Start is called before the first frame update
+    [SerializeField]
+    GameObject SoundManager;
+    
+    private SoundController _soundController;
 
-
-
+    public void Awake()
+    {
+        canShoot = true;
+        _soundController = SoundManager.GetComponent<SoundController>();
+    }
     void Update()
     {
         if (_fireContinuously || _fireSingle)
@@ -37,11 +45,14 @@ public class PlayerShoot : MonoBehaviour
 
             if(timeSinceLastFire > timeBetweenShots)
             {
-                FireBullet();
+                if(canShoot)
+                {
+                    FireBullet();
 
-                _lastTimeFire = Time.time;
+                    _lastTimeFire = Time.time;
 
-                _fireSingle = false;
+                    _fireSingle = false;
+                }
             }
         }
     }
@@ -54,6 +65,8 @@ public class PlayerShoot : MonoBehaviour
         Rigidbody2D rigidbody = bullet.GetComponent<Rigidbody2D>();
         rigidbody.transform.Rotate(0, 0, 90f);
         rigidbody.velocity = bulletSpeed * transform.right;
+        _soundController.OnPlayerShoot();
+
     }
     private void OnFire(InputValue inputValue)
     {

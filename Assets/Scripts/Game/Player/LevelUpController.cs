@@ -52,6 +52,7 @@ public class LevelUpController : MonoBehaviour
 
     public void LevelUp()
     {
+       
 
         if (LvlUpOptions.Length > 3){
             SelectRandomOptions();
@@ -65,6 +66,7 @@ public class LevelUpController : MonoBehaviour
             text3.text = (string)LvlUpOptions[2][0];
             OptionDesc3.text = (LvlUpOptions[2][1] + "/" + LvlUpOptions[2][2]);
             Time.timeScale = 0;
+            PlayerShoot.canShoot = false;
             EnablePanel.Invoke();
         }
         else if (LvlUpOptions.Length == 2)
@@ -79,6 +81,7 @@ public class LevelUpController : MonoBehaviour
             Option1.localPosition = new Vector3(300, 0);
             Option2.localPosition = new Vector3(250, 0);
             Time.timeScale = 0;
+            PlayerShoot.canShoot = false;
             EnablePanel.Invoke();
         }
         else if (LvlUpOptions.Length == 1)
@@ -90,6 +93,7 @@ public class LevelUpController : MonoBehaviour
             Option3.gameObject.SetActive(false);
             Option1.localPosition = new Vector3(750, 0);
             Time.timeScale = 0;
+            PlayerShoot.canShoot = false;
             EnablePanel.Invoke();
         }
         else if (LvlUpOptions.Length == 3)
@@ -104,12 +108,14 @@ public class LevelUpController : MonoBehaviour
             text3.text = (string)LvlUpOptions[2][0];
             OptionDesc3.text = (LvlUpOptions[2][1] + "/" + LvlUpOptions[2][2]);
             Time.timeScale = 0;
+            PlayerShoot.canShoot = false;
             EnablePanel.Invoke();
         }
         else if (LvlUpOptions.Length == 0)
         {
             HealthController.AddHealth(10);
         }
+        
         
     }
     public void SelectRandomOptions()
@@ -157,7 +163,7 @@ public class LevelUpController : MonoBehaviour
                 Debug.Log("fireRate after = " + PlayerShoot.timeBetweenShots);
                 selectedOption[1] = (int)selectedOption[1] + 1;
                 break;
-
+            
         }
         if ((int)selectedOption[1] >= (int)selectedOption[2])
         {
@@ -168,6 +174,7 @@ public class LevelUpController : MonoBehaviour
         }
 
         Time.timeScale = 1;
+        PlayerShoot.canShoot = true;
         SuccessfulSelect.Invoke();
     }
 }

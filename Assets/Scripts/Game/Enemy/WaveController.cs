@@ -26,14 +26,30 @@ public class WaveController : MonoBehaviour
 
         for (int i = 0; i < WaveSize; i++)
         {
-            int random = Random.Range(1, 11);
-            if (random == 1 || random == 2)
+            if (WaveNumber > 5)
             {
-                Wave.Add(_shooterEnemyPrefab);
+                int random = Random.Range(1, 11);
+                if (random == 1 || random == 2)
+                {
+                    Wave.Add(_shooterEnemyPrefab);
+                }
+                else
+                {
+                    Wave.Add(_basicEnemyPrefab);
+                }
             }
-            else
-            {
-                Wave.Add(_basicEnemyPrefab);
+            else if (WaveNumber < 10) {
+
+                int random = Random.Range(1, 11);
+                if (random == 1 || random == 2)
+                {
+                    Wave.Add(_shooterEnemyPrefab);
+                }
+                else
+                {
+                    Wave.Add(_basicEnemyPrefab);
+                }
+
             }
         }
 

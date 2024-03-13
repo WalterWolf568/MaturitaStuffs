@@ -8829,7 +8829,8 @@ MonoBehaviour:
   sfxSource: {fileID: 1531832362}
   bgMusic: {fileID: 8300000, guid: 72e72bc5562243f45a884bcc2d1b8376, type: 3}
   buttonSFX: {fileID: 8300000, guid: 84f805ab4ca869442a5b74a29218ec17, type: 3}
-  shootSFX: {fileID: 8300000, guid: 07185fa9e82fb2e499defc39a1433675, type: 3}
+  shootSFX: {fileID: 8300000, guid: d4a8176000efa29459bcc1e27a9d5016, type: 3}
+  hurtSFX: {fileID: 8300000, guid: 5a3d808901bfb2c41ae6f274ea71f651, type: 3}
 --- !u!4 &1667523664
 Transform:
   m_ObjectHideFlags: 0
@@ -10553,6 +10554,10 @@ PrefabInstance:
       value: -0.748
       objectReference: {fileID: 0}
     - target: {fileID: 7248103348099105320, guid: fe59eba2615404341ab695d0f88fd4eb, type: 3}
+      propertyPath: OnDamaged.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7248103348099105320, guid: fe59eba2615404341ab695d0f88fd4eb, type: 3}
       propertyPath: OnDied.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
       objectReference: {fileID: 1413404056}
@@ -10561,6 +10566,22 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1420970640}
     - target: {fileID: 7248103348099105320, guid: fe59eba2615404341ab695d0f88fd4eb, type: 3}
+      propertyPath: OnDamaged.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7248103348099105320, guid: fe59eba2615404341ab695d0f88fd4eb, type: 3}
+      propertyPath: OnDamaged.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1667523663}
+    - target: {fileID: 7248103348099105320, guid: fe59eba2615404341ab695d0f88fd4eb, type: 3}
+      propertyPath: OnDamaged.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7248103348099105320, guid: fe59eba2615404341ab695d0f88fd4eb, type: 3}
+      propertyPath: OnDamaged.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: OnPlayerHurt
+      objectReference: {fileID: 0}
+    - target: {fileID: 7248103348099105320, guid: fe59eba2615404341ab695d0f88fd4eb, type: 3}
       propertyPath: OnHealthChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1465073626}
@@ -10568,6 +10589,18 @@ PrefabInstance:
       propertyPath: OnDied.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_BoolArgument
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7248103348099105320, guid: fe59eba2615404341ab695d0f88fd4eb, type: 3}
+      propertyPath: OnDamaged.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: SoundController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7248103348099105320, guid: fe59eba2615404341ab695d0f88fd4eb, type: 3}
+      propertyPath: OnDamaged.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7516423413555598531, guid: fe59eba2615404341ab695d0f88fd4eb, type: 3}
+      propertyPath: SoundManager
+      value: 
+      objectReference: {fileID: 1667523662}
     - target: {fileID: 7516423413555598531, guid: fe59eba2615404341ab695d0f88fd4eb, type: 3}
       propertyPath: bulletDamage
       value: 5

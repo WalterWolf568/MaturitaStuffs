@@ -25,6 +25,7 @@ public class EnemySpawner : MonoBehaviour
 
     public bool isSpawning = false;
 
+
     public HealthController _healthController;
     public WaveController _waveController;
     private int i = 0;
@@ -57,7 +58,8 @@ public class EnemySpawner : MonoBehaviour
                     isSpawning = false;
                 }
                 _enemyPrefab = _waveController.Wave[i];
-                Instantiate(_enemyPrefab, _spawnPosition, transform.rotation);
+                GameObject Enemy = Instantiate(_enemyPrefab, _spawnPosition, transform.rotation);
+                Enemy.GetComponentInChildren<HealthController>().AddMaxHealth(_waveController.ExtraHealth);
                 SetTimeUntilSpawn();
                 i++;
             }

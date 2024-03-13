@@ -13,6 +13,7 @@ public class SoundController : MonoBehaviour
     public AudioClip bgMusic;
     public AudioClip buttonSFX;
     public AudioClip shootSFX;
+    public AudioClip hurtSFX;
 
 
     private void Start()
@@ -31,6 +32,12 @@ public class SoundController : MonoBehaviour
     public void OnPlayerShoot()
     {
         sfxSource.clip = shootSFX;
+        sfxSource.Play();
+    }
+
+    public void OnPlayerHurt()
+    {
+        sfxSource.clip= hurtSFX;
         sfxSource.Play();
     }
 }

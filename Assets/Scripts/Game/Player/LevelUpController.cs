@@ -33,6 +33,8 @@ public class LevelUpController : MonoBehaviour
     private PlayerShoot PlayerShoot;
     private HealthController HealthController;
 
+    private bool LvlScreen;
+
     public void Awake()
     {
         PlayerMovement = Player.GetComponentInChildren<PlayerMovement>();
@@ -48,6 +50,13 @@ public class LevelUpController : MonoBehaviour
         LvlUpOptions[2] = new object[] { "fireRate", 0, 7 };
         LvlUpOptions[3] = new object[] { "damage", 0, 10};
 
+    }
+    public void Update()
+    {
+        if (LvlScreen)
+        {
+            Time.timeScale = 0;
+        }
     }
 
     public void LevelUp()
@@ -67,6 +76,7 @@ public class LevelUpController : MonoBehaviour
             OptionDesc3.text = (LvlUpOptions[2][1] + "/" + LvlUpOptions[2][2]);
             Time.timeScale = 0;
             PlayerShoot.canShoot = false;
+            LvlScreen = true;
             EnablePanel.Invoke();
         }
         else if (LvlUpOptions.Length == 2)
@@ -82,6 +92,7 @@ public class LevelUpController : MonoBehaviour
             Option2.localPosition = new Vector3(250, 0);
             Time.timeScale = 0;
             PlayerShoot.canShoot = false;
+            LvlScreen = true;
             EnablePanel.Invoke();
         }
         else if (LvlUpOptions.Length == 1)
@@ -94,6 +105,7 @@ public class LevelUpController : MonoBehaviour
             Option1.localPosition = new Vector3(750, 0);
             Time.timeScale = 0;
             PlayerShoot.canShoot = false;
+            LvlScreen = true;
             EnablePanel.Invoke();
         }
         else if (LvlUpOptions.Length == 3)
@@ -109,6 +121,7 @@ public class LevelUpController : MonoBehaviour
             OptionDesc3.text = (LvlUpOptions[2][1] + "/" + LvlUpOptions[2][2]);
             Time.timeScale = 0;
             PlayerShoot.canShoot = false;
+            LvlScreen = true;
             EnablePanel.Invoke();
         }
         else if (LvlUpOptions.Length == 0)
@@ -175,6 +188,7 @@ public class LevelUpController : MonoBehaviour
 
         Time.timeScale = 1;
         PlayerShoot.canShoot = true;
+        LvlScreen = false;
         SuccessfulSelect.Invoke();
     }
 }

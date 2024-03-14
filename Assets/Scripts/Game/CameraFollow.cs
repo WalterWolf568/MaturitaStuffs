@@ -5,7 +5,7 @@ using UnityEngine;
 public class CameraFollow : MonoBehaviour
 {
     [SerializeField]
-    public Transform player;
+    public Transform BossEnemy;
 
     [SerializeField]
     public Vector3 offset;
@@ -16,7 +16,7 @@ public class CameraFollow : MonoBehaviour
     public void LateUpdate()
     {
 
-        Vector3 desiredPosition = player.position + offset;
+        Vector3 desiredPosition = BossEnemy.position + offset;
 
 
         desiredPosition.x = Mathf.Clamp(desiredPosition.x, -maxPosition, maxPosition);

@@ -13,11 +13,17 @@ public class WaveController : MonoBehaviour
     [SerializeField]
     private GameObject _shooterEnemyPrefab;
 
+    public BossFightController bossFightController;
+
     public int WaveSize = 15;
     public int WaveNumber = 0;
     public int ExtraHealth = 0;
     public int UpgradeWave = 5;
 
+    public void Start()
+    {
+        bossFightController = FindObjectOfType<BossFightController>();
+    }
     public void CreateWave()
     {
         Wave.Clear();
@@ -29,6 +35,10 @@ public class WaveController : MonoBehaviour
         {
             ExtraHealth += 10;
             UpgradeWave += 5;
+        }
+        if (WaveNumber > 19)
+        {
+            bossFightController.StartBossFight();
         }
         for (int i = 0; i < WaveSize; i++)
         {

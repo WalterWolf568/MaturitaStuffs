@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d766c83bd999c104cbd18e6949dd4df7
+guid: c698a265752d260469564ffc55afe311
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 2048
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_0
+      name: 8_sword_warrior_black_armor-Sheet 1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -124,14 +124,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93c8cb2ed6cb74d4c843e7d44ec383fd
-      internalID: -703636112
+      spriteID: aa595c39a69c2f44ca79a1c0eb6b6589
+      internalID: 1031829002
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_1
+      name: 8_sword_warrior_black_armor-Sheet 1_1
       rect:
         serializedVersion: 2
         x: 160
@@ -145,14 +145,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81509ee75122f364c87f1c6c9dbebae3
-      internalID: 1402342104
+      spriteID: d9b520b457356704abfe49dd6a26287d
+      internalID: 619890760
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_2
+      name: 8_sword_warrior_black_armor-Sheet 1_2
       rect:
         serializedVersion: 2
         x: 320
@@ -166,14 +166,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed621ebb9538133499ae4c573fa7f665
-      internalID: -1095135247
+      spriteID: 96f10551e2d4d8f47acc140647bbcf13
+      internalID: 1453044684
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_3
+      name: 8_sword_warrior_black_armor-Sheet 1_3
       rect:
         serializedVersion: 2
         x: 480
@@ -187,14 +187,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee6f3029e3c11b044bc1de47c65afd5c
-      internalID: 385924576
+      spriteID: 65342c8f5f232cf409ff22966b552cf9
+      internalID: -176566907
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_4
+      name: 8_sword_warrior_black_armor-Sheet 1_4
       rect:
         serializedVersion: 2
         x: 640
@@ -208,14 +208,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b64f7addfb23a748a0f2e8bf5b97aef
-      internalID: 515488092
+      spriteID: 74714251bd6583a41a62ae1e1719fbf9
+      internalID: 978061596
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_5
+      name: 8_sword_warrior_black_armor-Sheet 1_5
       rect:
         serializedVersion: 2
         x: 800
@@ -229,14 +229,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a51b734db3fb41d478aa5340d3dd49b3
-      internalID: -994411433
+      spriteID: b7d513094de076e468f787f35b930bca
+      internalID: 1832217184
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_6
+      name: 8_sword_warrior_black_armor-Sheet 1_6
       rect:
         serializedVersion: 2
         x: 960
@@ -250,14 +250,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dadcd4c789eb1794cbdda9862e532008
-      internalID: 825023055
+      spriteID: baaf3cc1741f8c744b4d96518bb65081
+      internalID: -883869068
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_7
+      name: 8_sword_warrior_black_armor-Sheet 1_7
       rect:
         serializedVersion: 2
         x: 1120
@@ -271,14 +271,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11a290939a6e13146a0f009d5caceb9b
-      internalID: 1923723807
+      spriteID: 97da45f401a3d5b4c986606415db0d27
+      internalID: 1813257880
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_8
+      name: 8_sword_warrior_black_armor-Sheet 1_8
       rect:
         serializedVersion: 2
         x: 1280
@@ -292,14 +292,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb8cdab816888bc40b19a847cb29e641
-      internalID: -306180498
+      spriteID: c56dcf5213fdfd447acb4f5973e6d330
+      internalID: -647268239
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_9
+      name: 8_sword_warrior_black_armor-Sheet 1_9
       rect:
         serializedVersion: 2
         x: 1440
@@ -313,14 +313,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5b42d8b8f70140458015119a7055e22
-      internalID: 1457514460
+      spriteID: bf3485410edf5414b89610b0ef2ec337
+      internalID: 803355014
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_10
+      name: 8_sword_warrior_black_armor-Sheet 1_10
       rect:
         serializedVersion: 2
         x: 1600
@@ -334,14 +334,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9331dec606b73704a89232bb93495ab9
-      internalID: 1526143606
+      spriteID: 821210aca351a42429efcd371784ccb7
+      internalID: -1930377655
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_11
+      name: 8_sword_warrior_black_armor-Sheet 1_11
       rect:
         serializedVersion: 2
         x: 1760
@@ -355,14 +355,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84421a8e81a70c94db2863ff67f0cc1f
-      internalID: -782791393
+      spriteID: a56266cdaa8302a45b3517277c7cf33b
+      internalID: 656580302
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_12
+      name: 8_sword_warrior_black_armor-Sheet 1_12
       rect:
         serializedVersion: 2
         x: 1920
@@ -376,14 +376,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f7c29a98c283b3479fbf2fc538288d7
-      internalID: 1369120622
+      spriteID: 3d00ffacd2c37de4780b9c04983e0ecd
+      internalID: 1451546328
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_13
+      name: 8_sword_warrior_black_armor-Sheet 1_13
       rect:
         serializedVersion: 2
         x: 2080
@@ -397,14 +397,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aade6ad871d414142a841c9ccaf0bb52
-      internalID: 908553691
+      spriteID: 61333740a1d710e48a60655592654c16
+      internalID: -175150139
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_14
+      name: 8_sword_warrior_black_armor-Sheet 1_14
       rect:
         serializedVersion: 2
         x: 0
@@ -418,14 +418,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce2c7e3d126bb2b4daad1bd29d83601c
-      internalID: 1712450781
+      spriteID: 784346bb8c31f854fa127585d02d969b
+      internalID: -1019139467
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_15
+      name: 8_sword_warrior_black_armor-Sheet 1_15
       rect:
         serializedVersion: 2
         x: 160
@@ -439,14 +439,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7dc24c77b52b4f84d815a3f79eab1f32
-      internalID: 94567088
+      spriteID: a694c852f1f362c41ba317fe73c1dd66
+      internalID: -126325121
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_16
+      name: 8_sword_warrior_black_armor-Sheet 1_16
       rect:
         serializedVersion: 2
         x: 320
@@ -460,14 +460,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: abc9685bf02a1b3498875f2ab1318ebc
-      internalID: 1546259467
+      spriteID: 4022f36922f04d0419cd5e66cfae7aab
+      internalID: -46405569
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_17
+      name: 8_sword_warrior_black_armor-Sheet 1_17
       rect:
         serializedVersion: 2
         x: 480
@@ -481,14 +481,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24d87ba82e628b440afb6db81c19ef64
-      internalID: 555432025
+      spriteID: 5c748925a7fd90645bf947cfa23ad46c
+      internalID: 162430504
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_18
+      name: 8_sword_warrior_black_armor-Sheet 1_18
       rect:
         serializedVersion: 2
         x: 640
@@ -502,14 +502,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 106dbcab70a8b7946adadc2f2e6f739c
-      internalID: 1831564982
+      spriteID: 47b4020628598144886d2cd2abe8f16d
+      internalID: -598631724
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_19
+      name: 8_sword_warrior_black_armor-Sheet 1_19
       rect:
         serializedVersion: 2
         x: 800
@@ -523,14 +523,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f85abfb266796fd4c81bcaeff4917fef
-      internalID: -104328378
+      spriteID: 6c0db47ee4af5cc44849a5e4b53fa675
+      internalID: 2000562351
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_20
+      name: 8_sword_warrior_black_armor-Sheet 1_20
       rect:
         serializedVersion: 2
         x: 960
@@ -544,14 +544,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 099ea1ea2cab3984586b00de78ed1627
-      internalID: 1034851876
+      spriteID: 0dacd5dec12f6984d97334584a574dd9
+      internalID: -999334487
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_21
+      name: 8_sword_warrior_black_armor-Sheet 1_21
       rect:
         serializedVersion: 2
         x: 1120
@@ -565,14 +565,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e196f2086684d94db7a1d3bde54e543
-      internalID: -1811793809
+      spriteID: 18302efa1b4394e43be35347dfbfe65b
+      internalID: -167029170
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_22
+      name: 8_sword_warrior_black_armor-Sheet 1_22
       rect:
         serializedVersion: 2
         x: 0
@@ -586,14 +586,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba29f4913769ca444867a673926099d8
-      internalID: -892680927
+      spriteID: 9fb237940e679c8418376f5d2ed90edc
+      internalID: 979644130
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_23
+      name: 8_sword_warrior_black_armor-Sheet 1_23
       rect:
         serializedVersion: 2
         x: 160
@@ -607,14 +607,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5bf0318f9a668184fab16630c2c9e5fd
-      internalID: 1828542215
+      spriteID: bd0ef9bbfc193a9408b715f4d1bc21b1
+      internalID: 178946893
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_24
+      name: 8_sword_warrior_black_armor-Sheet 1_24
       rect:
         serializedVersion: 2
         x: 320
@@ -628,14 +628,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d158f3c47a401e84ab1aa33168aef892
-      internalID: -1986678326
+      spriteID: b2f1d82860d8b34469293b05c0002ba0
+      internalID: 1516783403
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_25
+      name: 8_sword_warrior_black_armor-Sheet 1_25
       rect:
         serializedVersion: 2
         x: 480
@@ -649,14 +649,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60be6510931b14042a71c70ee4b3efa8
-      internalID: -817739045
+      spriteID: ebb21542d69d5ec42a182de8505dc085
+      internalID: 1742291212
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_26
+      name: 8_sword_warrior_black_armor-Sheet 1_26
       rect:
         serializedVersion: 2
         x: 640
@@ -670,14 +670,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7f59e34e4922bc40b5f05b2e3f9ff5b
-      internalID: 1481126699
+      spriteID: f31cb1f9dbc5b9b46b0e95ddaa38ee8c
+      internalID: 62894250
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_27
+      name: 8_sword_warrior_black_armor-Sheet 1_27
       rect:
         serializedVersion: 2
         x: 800
@@ -691,14 +691,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b5c982705962ec478797ecf94266745
-      internalID: 1413120728
+      spriteID: dc74640a15f440a46b24cb0384ff8cd0
+      internalID: -1862235042
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_28
+      name: 8_sword_warrior_black_armor-Sheet 1_28
       rect:
         serializedVersion: 2
         x: 960
@@ -712,14 +712,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5250e8751842ed64d83c92695c19fc09
-      internalID: -1727924148
+      spriteID: e7b6532edf6f36246a429484dc5a6c8e
+      internalID: 490301416
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_29
+      name: 8_sword_warrior_black_armor-Sheet 1_29
       rect:
         serializedVersion: 2
         x: 1120
@@ -733,14 +733,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f703bada4a1e42b4b8fd53139b67cd6b
-      internalID: -1196324263
+      spriteID: 4774a9006172d124e85d222377c09f6c
+      internalID: 1456339075
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_30
+      name: 8_sword_warrior_black_armor-Sheet 1_30
       rect:
         serializedVersion: 2
         x: 1280
@@ -754,14 +754,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2da10400d18842f4a9c0f0f9bf7620fb
-      internalID: -1673244570
+      spriteID: d1e45bfb1773f9545ae34f7d34b367ef
+      internalID: -1291285718
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_31
+      name: 8_sword_warrior_black_armor-Sheet 1_31
       rect:
         serializedVersion: 2
         x: 1440
@@ -775,14 +775,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fdd27858c400ea840a6fe859cdb8ad28
-      internalID: 308631243
+      spriteID: 9d42f19e41ce7224faeb4cdd6fe86351
+      internalID: -408788932
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_32
+      name: 8_sword_warrior_black_armor-Sheet 1_32
       rect:
         serializedVersion: 2
         x: 1600
@@ -796,14 +796,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ad59df8e52f3f349a1cbb783dd884c5
-      internalID: -877449425
+      spriteID: 63f505fdfa57de2488387f17fe1e8a8b
+      internalID: 1545606590
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_33
+      name: 8_sword_warrior_black_armor-Sheet 1_33
       rect:
         serializedVersion: 2
         x: 1760
@@ -817,14 +817,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c7ced36fe8f79d43aa110098594f4e3
-      internalID: -916508242
+      spriteID: 0c0041297b3502e489d63f17f6815478
+      internalID: 1126129688
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_34
+      name: 8_sword_warrior_black_armor-Sheet 1_34
       rect:
         serializedVersion: 2
         x: 1920
@@ -838,14 +838,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 494cd46cfd1a21548890e8554045be3b
-      internalID: 609088047
+      spriteID: 8ed952c4ffa3d4b4b829e90e6f0d7b11
+      internalID: 1110886966
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_35
+      name: 8_sword_warrior_black_armor-Sheet 1_35
       rect:
         serializedVersion: 2
         x: 2080
@@ -859,14 +859,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c91f6becc1cd8334fb405a27aa373477
-      internalID: 336247913
+      spriteID: 33624e4dac513484e8764794de915cbd
+      internalID: -1543593050
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_36
+      name: 8_sword_warrior_black_armor-Sheet 1_36
       rect:
         serializedVersion: 2
         x: 2240
@@ -880,14 +880,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5a0ee57398f1f64982f81046e68dfd6
-      internalID: 1847296210
+      spriteID: 481101344eb2d5346a633c2dcadcdda5
+      internalID: -196151406
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_37
+      name: 8_sword_warrior_black_armor-Sheet 1_37
       rect:
         serializedVersion: 2
         x: 0
@@ -901,14 +901,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aae8041ee494a354f93f65d04fa6b8a9
-      internalID: -509429389
+      spriteID: 5ecafd9d626e4734381590a921467387
+      internalID: -500397462
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_38
+      name: 8_sword_warrior_black_armor-Sheet 1_38
       rect:
         serializedVersion: 2
         x: 160
@@ -922,14 +922,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e422348fe2495b749877014caf705557
-      internalID: -817661497
+      spriteID: 53fba542de84fd9448483dfd2b81cb69
+      internalID: 1334079034
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_39
+      name: 8_sword_warrior_black_armor-Sheet 1_39
       rect:
         serializedVersion: 2
         x: 320
@@ -943,14 +943,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc860653b670636449a1f740dd7b9924
-      internalID: -1831912163
+      spriteID: eb74ac1ccaa839446acb6ffbddcd8e8a
+      internalID: 1532685577
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_40
+      name: 8_sword_warrior_black_armor-Sheet 1_40
       rect:
         serializedVersion: 2
         x: 480
@@ -964,14 +964,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b220d285ecd241d45858ecafd51a0f03
-      internalID: -726965099
+      spriteID: c2f5342a15ecb274da4aeb1b42b6d193
+      internalID: 2051599216
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_41
+      name: 8_sword_warrior_black_armor-Sheet 1_41
       rect:
         serializedVersion: 2
         x: 640
@@ -985,14 +985,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6f1aef42d835014aa47e23917974c23
-      internalID: -1599959491
+      spriteID: 3fc97be63021e3649bf87e4d4f5d02f1
+      internalID: -785669331
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_42
+      name: 8_sword_warrior_black_armor-Sheet 1_42
       rect:
         serializedVersion: 2
         x: 800
@@ -1006,14 +1006,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ebfa812e68bbd044a8b187cf96072c5
-      internalID: -386486290
+      spriteID: ec93f0586736351488b3ee74910db022
+      internalID: -1284103439
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_43
+      name: 8_sword_warrior_black_armor-Sheet 1_43
       rect:
         serializedVersion: 2
         x: 960
@@ -1027,14 +1027,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad2c4016127116643aef528ed3eee2d6
-      internalID: -1696044775
+      spriteID: e9cac02abf5bbd243acab9f0d1667981
+      internalID: -891996753
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_44
+      name: 8_sword_warrior_black_armor-Sheet 1_44
       rect:
         serializedVersion: 2
         x: 1120
@@ -1048,14 +1048,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0be2bdeffe4672b4482b8b1ad7e0767b
-      internalID: 1562872918
+      spriteID: 46c202873b7c0024a90613c7a1814569
+      internalID: 424982647
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_45
+      name: 8_sword_warrior_black_armor-Sheet 1_45
       rect:
         serializedVersion: 2
         x: 1280
@@ -1069,14 +1069,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dbf2ccc9154d6404a900f17df4e6c8e6
-      internalID: 824099525
+      spriteID: b739b8cc5a1d4224cb5647b469cf7279
+      internalID: 2062715520
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_46
+      name: 8_sword_warrior_black_armor-Sheet 1_46
       rect:
         serializedVersion: 2
         x: 1440
@@ -1090,14 +1090,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67d6f91f6678b1246bd85a52bdd20ecd
-      internalID: -1864096147
+      spriteID: 1b6c43d776a0cb941965e225370370aa
+      internalID: -991122924
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_47
+      name: 8_sword_warrior_black_armor-Sheet 1_47
       rect:
         serializedVersion: 2
         x: 1600
@@ -1111,14 +1111,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5516d35d436fc4142b8fa637439f34a5
-      internalID: -1124933181
+      spriteID: dd83c22b8305c58409dd4cd5b5f7265a
+      internalID: 1642312994
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_48
+      name: 8_sword_warrior_black_armor-Sheet 1_48
       rect:
         serializedVersion: 2
         x: 1760
@@ -1132,14 +1132,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f66e6af364310d74bb7e19a6bf018e25
-      internalID: 1730213545
+      spriteID: 5780009694fea5345b9c6f6e93fb0d12
+      internalID: -2013806288
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_49
+      name: 8_sword_warrior_black_armor-Sheet 1_49
       rect:
         serializedVersion: 2
         x: 1920
@@ -1153,14 +1153,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38343684a2c80fd47b9f75ccec870e81
-      internalID: 568534216
+      spriteID: 504185af98aac2c418daa9ab0a8238e8
+      internalID: -501574603
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_50
+      name: 8_sword_warrior_black_armor-Sheet 1_50
       rect:
         serializedVersion: 2
         x: 2080
@@ -1174,14 +1174,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3fef528224b329942b292848761d14a3
-      internalID: -1988649056
+      spriteID: f763442ce831e5847aadf60db427a2a9
+      internalID: -1156561619
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_51
+      name: 8_sword_warrior_black_armor-Sheet 1_51
       rect:
         serializedVersion: 2
         x: 2240
@@ -1195,14 +1195,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 358c6dc44a01b1249b2e5ef5a06e8f0e
-      internalID: -1479242628
+      spriteID: 659dacb3d0424f44299d26ddbbe51a7b
+      internalID: -548003110
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_52
+      name: 8_sword_warrior_black_armor-Sheet 1_52
       rect:
         serializedVersion: 2
         x: 2400
@@ -1216,14 +1216,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de9331a43d5484a42b9d507698af46f9
-      internalID: 1536840745
+      spriteID: a726bcc8be87ea547b574d250ff9eb6a
+      internalID: 1077716090
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_53
+      name: 8_sword_warrior_black_armor-Sheet 1_53
       rect:
         serializedVersion: 2
         x: 2560
@@ -1237,14 +1237,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1b949720be5e7243a8bcf1d90fefe8e
-      internalID: -242915894
+      spriteID: 35d25d1e429610e4082ae96347d77799
+      internalID: -513894145
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_54
+      name: 8_sword_warrior_black_armor-Sheet 1_54
       rect:
         serializedVersion: 2
         x: 2720
@@ -1258,14 +1258,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c16aeaa05b3397408423e7f5eab1675
-      internalID: 136809067
+      spriteID: 9d425fc6d3c2ef8409b2fa6adb0af835
+      internalID: -1711625067
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_55
+      name: 8_sword_warrior_black_armor-Sheet 1_55
       rect:
         serializedVersion: 2
         x: 2880
@@ -1279,14 +1279,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9441765fd945fa4980b1562de375352
-      internalID: -885389333
+      spriteID: e596cf8490a4da748867ef4429ab0537
+      internalID: 716069917
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_56
+      name: 8_sword_warrior_black_armor-Sheet 1_56
       rect:
         serializedVersion: 2
         x: 3040
@@ -1300,14 +1300,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2573d21566b72b44e832336570be4f12
-      internalID: -1201047763
+      spriteID: d0fd3ec9577700d4a881976ca28a7d72
+      internalID: -862527292
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_57
+      name: 8_sword_warrior_black_armor-Sheet 1_57
       rect:
         serializedVersion: 2
         x: 3200
@@ -1321,14 +1321,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e7e502fec97f3847894bb81926ccb97
-      internalID: 992374487
+      spriteID: 3cbd862c1ef733342b25248121454e80
+      internalID: -85124258
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_58
+      name: 8_sword_warrior_black_armor-Sheet 1_58
       rect:
         serializedVersion: 2
         x: 0
@@ -1342,14 +1342,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a21a6e00d817c0244b257bc1ddb536c6
-      internalID: 1261512374
+      spriteID: 070ac0cdd0453844f80b96e32c473f6f
+      internalID: -663646628
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_59
+      name: 8_sword_warrior_black_armor-Sheet 1_59
       rect:
         serializedVersion: 2
         x: 160
@@ -1363,14 +1363,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb8e9b5cd0bbf4b43a259432a1fc8fdd
-      internalID: -1252867892
+      spriteID: 90fe570b5de521346ba66624519bd2df
+      internalID: 2092978699
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_60
+      name: 8_sword_warrior_black_armor-Sheet 1_60
       rect:
         serializedVersion: 2
         x: 320
@@ -1384,14 +1384,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6799eccc20996ab4b8b68349a6dc71b4
-      internalID: 1613828209
+      spriteID: 89cd7ce1a21675948a713334dbaf0101
+      internalID: 1989070183
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_61
+      name: 8_sword_warrior_black_armor-Sheet 1_61
       rect:
         serializedVersion: 2
         x: 480
@@ -1405,14 +1405,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc83e88acd0c098489eba5563e6fb799
-      internalID: 357829110
+      spriteID: ca2f3015caf65494599d5716c248296c
+      internalID: 1319363885
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_62
+      name: 8_sword_warrior_black_armor-Sheet 1_62
       rect:
         serializedVersion: 2
         x: 640
@@ -1426,14 +1426,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0308ea9b800cb846b1249fd2b05fd4e
-      internalID: -374399308
+      spriteID: 8d32352a17b76564c9b94caf83c25b57
+      internalID: -1855157651
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_63
+      name: 8_sword_warrior_black_armor-Sheet 1_63
       rect:
         serializedVersion: 2
         x: 800
@@ -1447,14 +1447,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a501bd454013ce499b4a06e3e70181f
-      internalID: 149294660
+      spriteID: 294e6719361d2a844ab16f1c7aa5fc84
+      internalID: -184308166
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_64
+      name: 8_sword_warrior_black_armor-Sheet 1_64
       rect:
         serializedVersion: 2
         x: 960
@@ -1468,14 +1468,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a897d308e2f60824ebdce9c3868257fc
-      internalID: 730866418
+      spriteID: 91869016c70adf049a0d836ace2eab01
+      internalID: -1263662288
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_65
+      name: 8_sword_warrior_black_armor-Sheet 1_65
       rect:
         serializedVersion: 2
         x: 1120
@@ -1489,14 +1489,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eca31d7382dd9d64fa51730aca8cc57f
-      internalID: -495676807
+      spriteID: 6a3639a7a41c69447abe0bf664e84361
+      internalID: 262832913
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_66
+      name: 8_sword_warrior_black_armor-Sheet 1_66
       rect:
         serializedVersion: 2
         x: 1280
@@ -1510,14 +1510,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48012cf0bfbf71145a1a32bd5e46efb2
-      internalID: -2140218869
+      spriteID: 68bba2c8b8389e2449b0d032cf6a7234
+      internalID: 493100269
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_67
+      name: 8_sword_warrior_black_armor-Sheet 1_67
       rect:
         serializedVersion: 2
         x: 1440
@@ -1531,14 +1531,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e89f4ed93f8b8af458d4a532d7473101
-      internalID: -1517203127
+      spriteID: 7921328d88926c146a8400cf66452506
+      internalID: -52569333
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_68
+      name: 8_sword_warrior_black_armor-Sheet 1_68
       rect:
         serializedVersion: 2
         x: 1600
@@ -1552,14 +1552,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 024c04e020dc47744871710747e5471c
-      internalID: -1985170222
+      spriteID: 155ca51a16b393d4eb2b02a4c41bd22e
+      internalID: 246927494
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_69
+      name: 8_sword_warrior_black_armor-Sheet 1_69
       rect:
         serializedVersion: 2
         x: 1760
@@ -1573,14 +1573,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dfc07aee688c13c4d9bbd12933daea0b
-      internalID: 1157047237
+      spriteID: 7d1dadef9daedfe44a9e6ad8662e67f0
+      internalID: -927791952
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_70
+      name: 8_sword_warrior_black_armor-Sheet 1_70
       rect:
         serializedVersion: 2
         x: 1920
@@ -1594,14 +1594,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 930f0ac98e00bb343b8873133bc37ff4
-      internalID: -645343519
+      spriteID: b239acb63158ffa4daf05206ae30f678
+      internalID: -1250209593
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_71
+      name: 8_sword_warrior_black_armor-Sheet 1_71
       rect:
         serializedVersion: 2
         x: 2080
@@ -1615,14 +1615,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e35fbf946fc12e4ba79fa85457e93b5
-      internalID: 597039559
+      spriteID: 0e0d00e8ad529944591b9b47027b0847
+      internalID: -970172901
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_72
+      name: 8_sword_warrior_black_armor-Sheet 1_72
       rect:
         serializedVersion: 2
         x: 0
@@ -1636,14 +1636,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6cb022a657a90444b38df390ef9dd9b
-      internalID: 475097860
+      spriteID: e2f9b0c992b8c0e429fa1a6e2f56db33
+      internalID: 1297574303
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_73
+      name: 8_sword_warrior_black_armor-Sheet 1_73
       rect:
         serializedVersion: 2
         x: 160
@@ -1657,14 +1657,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6fae54298f19bad49a81325026189659
-      internalID: -756000295
+      spriteID: 40430b74300c44448929306e1739d5b3
+      internalID: -528204986
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_74
+      name: 8_sword_warrior_black_armor-Sheet 1_74
       rect:
         serializedVersion: 2
         x: 320
@@ -1678,14 +1678,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85d1824a3661f814a8dc47cec2e77287
-      internalID: 450017021
+      spriteID: 9905ffb3ea42a22458de63fc1654209f
+      internalID: 197301123
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_75
+      name: 8_sword_warrior_black_armor-Sheet 1_75
       rect:
         serializedVersion: 2
         x: 480
@@ -1699,14 +1699,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c33cfd6c8cdec8469eb632e636c2881
-      internalID: 560726803
+      spriteID: 951278da1417220449e28446c522c464
+      internalID: 1858748988
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_76
+      name: 8_sword_warrior_black_armor-Sheet 1_76
       rect:
         serializedVersion: 2
         x: 640
@@ -1720,14 +1720,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9555839c1947384ea871ba7ae10e378
-      internalID: -1887790621
+      spriteID: 70825e55149d124499d5c99f50b84ace
+      internalID: -464494774
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_77
+      name: 8_sword_warrior_black_armor-Sheet 1_77
       rect:
         serializedVersion: 2
         x: 800
@@ -1741,14 +1741,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3c9e44f25a2dd74d86cb7ee667466ac
-      internalID: -152693230
+      spriteID: 9e7bdbc842ac19340a05aa2ffa6184a3
+      internalID: -346201386
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_78
+      name: 8_sword_warrior_black_armor-Sheet 1_78
       rect:
         serializedVersion: 2
         x: 960
@@ -1762,14 +1762,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60d5f8d42c60aff42b38856457ca9a64
-      internalID: 51523491
+      spriteID: 19c4b996781bddb4fbd918ddccf7bc8f
+      internalID: -481057531
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_79
+      name: 8_sword_warrior_black_armor-Sheet 1_79
       rect:
         serializedVersion: 2
         x: 1120
@@ -1783,14 +1783,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8ca873841c8fb14da5d5ebeff0ef835
-      internalID: -1034575119
+      spriteID: 0696d606e1437084684b8cb7f24d207c
+      internalID: 287131343
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_80
+      name: 8_sword_warrior_black_armor-Sheet 1_80
       rect:
         serializedVersion: 2
         x: 1280
@@ -1804,14 +1804,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9688668472f55bc479b4a812c86aeeba
-      internalID: 436460341
+      spriteID: 368a9ad3a29df914a99d22eee1df8100
+      internalID: -2042897111
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_81
+      name: 8_sword_warrior_black_armor-Sheet 1_81
       rect:
         serializedVersion: 2
         x: 1440
@@ -1825,14 +1825,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 576e51b5f0be4dd4699c1e8f75a08c87
-      internalID: 1860002919
+      spriteID: 7a380f8c24fd27747a547f005637cdbf
+      internalID: 1324062783
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_82
+      name: 8_sword_warrior_black_armor-Sheet 1_82
       rect:
         serializedVersion: 2
         x: 1600
@@ -1846,14 +1846,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d8d9c2de19d8d54ab24e293e8eabb26
-      internalID: -1409406830
+      spriteID: 4fc98833f888640438ef48309a494639
+      internalID: 780152149
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_83
+      name: 8_sword_warrior_black_armor-Sheet 1_83
       rect:
         serializedVersion: 2
         x: 1760
@@ -1867,14 +1867,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5836182b0d3deb40bbc892ed68aaf45
-      internalID: 444427081
+      spriteID: dba9d02284007524fa5496625f268430
+      internalID: 1298486399
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_84
+      name: 8_sword_warrior_black_armor-Sheet 1_84
       rect:
         serializedVersion: 2
         x: 1920
@@ -1888,14 +1888,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e61bd6e1d4df52844a640ef3499f562b
-      internalID: -859087893
+      spriteID: 218ec8e1de0559148918a29cb30acf8e
+      internalID: -2096388132
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_85
+      name: 8_sword_warrior_black_armor-Sheet 1_85
       rect:
         serializedVersion: 2
         x: 2080
@@ -1909,14 +1909,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8254b25d038913f49ad932bd6a3f7202
-      internalID: 1732114587
+      spriteID: 0645617dcec3f3c408d95a2bab614744
+      internalID: -1081295658
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_86
+      name: 8_sword_warrior_black_armor-Sheet 1_86
       rect:
         serializedVersion: 2
         x: 2240
@@ -1930,14 +1930,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0520a95bd8a8c534dbf4f602f49f9176
-      internalID: -1198127429
+      spriteID: 46bff53cc68b6a44ea4bc639b0279af5
+      internalID: -591239115
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_87
+      name: 8_sword_warrior_black_armor-Sheet 1_87
       rect:
         serializedVersion: 2
         x: 2400
@@ -1951,14 +1951,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7251fceb320ad34896b2f06b6f26a9a
-      internalID: -1370141086
+      spriteID: c5b6cc9d4c8eb914da05713b6a707c65
+      internalID: -1676027257
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_88
+      name: 8_sword_warrior_black_armor-Sheet 1_88
       rect:
         serializedVersion: 2
         x: 2560
@@ -1972,14 +1972,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c539b003648ccba45a7a84ad5de90fae
-      internalID: -407122738
+      spriteID: 673dd9467cb88694cbf1c550c5da9ef3
+      internalID: 382286041
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_89
+      name: 8_sword_warrior_black_armor-Sheet 1_89
       rect:
         serializedVersion: 2
         x: 2720
@@ -1993,14 +1993,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8fcec6a083e9eb94592a1ef2305ce278
-      internalID: 189689266
+      spriteID: d9957029202dbb34a9eccfcb1e02d8d4
+      internalID: 747351936
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_90
+      name: 8_sword_warrior_black_armor-Sheet 1_90
       rect:
         serializedVersion: 2
         x: 2880
@@ -2014,14 +2014,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b33b87770bca4f240806941bb3a616e9
-      internalID: -1134760932
+      spriteID: 5d66e7a2535bc244085a9b015637c85f
+      internalID: -216374815
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_91
+      name: 8_sword_warrior_black_armor-Sheet 1_91
       rect:
         serializedVersion: 2
         x: 3040
@@ -2035,14 +2035,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1cc09a71e20ef254981a778e7df2ad83
-      internalID: 820111713
+      spriteID: 227f4b265c218a84c923f4c32f5e07d2
+      internalID: -1861600559
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_92
+      name: 8_sword_warrior_black_armor-Sheet 1_92
       rect:
         serializedVersion: 2
         x: 3200
@@ -2056,14 +2056,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d068bb39bb10ffc448e1b6ea6e17b407
-      internalID: 896863728
+      spriteID: e05eebecc5c86214eb2825fbcf8766bc
+      internalID: 1955998800
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_93
+      name: 8_sword_warrior_black_armor-Sheet 1_93
       rect:
         serializedVersion: 2
         x: 0
@@ -2077,14 +2077,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63d2fd46a81d46c4f9e32fde38dcfe88
-      internalID: 1002699772
+      spriteID: 11d55552c3597844786247760ecfdfee
+      internalID: -1239287806
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_94
+      name: 8_sword_warrior_black_armor-Sheet 1_94
       rect:
         serializedVersion: 2
         x: 160
@@ -2098,14 +2098,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16b5bb88fcb0e064b8494275f0a98627
-      internalID: 1377622386
+      spriteID: d74b05e2c417a6a4287f86726a7be9a8
+      internalID: -2047641519
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_95
+      name: 8_sword_warrior_black_armor-Sheet 1_95
       rect:
         serializedVersion: 2
         x: 320
@@ -2119,14 +2119,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 589f12a1a52edf2459323eee896bccbc
-      internalID: -1221073574
+      spriteID: ca2a2ae8fe8a0be4195b2e58ddfad01a
+      internalID: -1334820813
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_96
+      name: 8_sword_warrior_black_armor-Sheet 1_96
       rect:
         serializedVersion: 2
         x: 480
@@ -2140,14 +2140,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5056d19b53080ca4aa1f002b2122afc9
-      internalID: -1820740508
+      spriteID: 9c39fa06ab606344e9e546b1850ea7be
+      internalID: 492618721
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_97
+      name: 8_sword_warrior_black_armor-Sheet 1_97
       rect:
         serializedVersion: 2
         x: 640
@@ -2161,14 +2161,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a264bb1ecc34c144a47db11ebffa9bd
-      internalID: 527693249
+      spriteID: 0e4ba5dedf97c0e418b9cad5f1ea8afe
+      internalID: -859882361
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_98
+      name: 8_sword_warrior_black_armor-Sheet 1_98
       rect:
         serializedVersion: 2
         x: 800
@@ -2182,14 +2182,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c17b286023b38f44593244b83dc9a7fa
-      internalID: 1827346788
+      spriteID: d9efc8c716ad8eb43a571853b842d6ef
+      internalID: 498332116
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_99
+      name: 8_sword_warrior_black_armor-Sheet 1_99
       rect:
         serializedVersion: 2
         x: 960
@@ -2203,14 +2203,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: afea09c7544f2664089abab9fa6e143f
-      internalID: 1434559008
+      spriteID: 58ecceb95db5cb64babc1140c2713689
+      internalID: 60770511
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_100
+      name: 8_sword_warrior_black_armor-Sheet 1_100
       rect:
         serializedVersion: 2
         x: 1120
@@ -2224,14 +2224,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 214294c96ef2f7440b7698b11f6c360b
-      internalID: 1758344141
+      spriteID: b8af43a2ad0f3f543a3ca5822b794690
+      internalID: -1365342088
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_101
+      name: 8_sword_warrior_black_armor-Sheet 1_101
       rect:
         serializedVersion: 2
         x: 1280
@@ -2245,14 +2245,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 800c56a312f09594e8aaecf0390d56f6
-      internalID: 1447377772
+      spriteID: de379ffea501487489f89129d3f9d58b
+      internalID: -2093666722
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_102
+      name: 8_sword_warrior_black_armor-Sheet 1_102
       rect:
         serializedVersion: 2
         x: 1440
@@ -2266,14 +2266,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cba3bf3f9a483cf4586710a02371c8b8
-      internalID: -27437402
+      spriteID: c21178950a82713439b4991e199cb53f
+      internalID: -553696158
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_103
+      name: 8_sword_warrior_black_armor-Sheet 1_103
       rect:
         serializedVersion: 2
         x: 1600
@@ -2287,14 +2287,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ebc2922f21a08d4f9bd1a0789697f3d
-      internalID: 1632844813
+      spriteID: 2083ecd47f75c084e826a496e5cc2ce4
+      internalID: 71013253
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_104
+      name: 8_sword_warrior_black_armor-Sheet 1_104
       rect:
         serializedVersion: 2
         x: 1760
@@ -2308,14 +2308,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b1ac1aff01eecc45bf5cbe207d24a18
-      internalID: -2097424094
+      spriteID: bdb2b5d0536ff4c499ef3f14cde6a252
+      internalID: -1921973597
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_105
+      name: 8_sword_warrior_black_armor-Sheet 1_105
       rect:
         serializedVersion: 2
         x: 1920
@@ -2329,14 +2329,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51b031580bcdca64fbcd86d9b2abb44d
-      internalID: -488211903
+      spriteID: 968c31fcc92d36e4aa8a268d1be5f405
+      internalID: -1536631518
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_106
+      name: 8_sword_warrior_black_armor-Sheet 1_106
       rect:
         serializedVersion: 2
         x: 2080
@@ -2350,14 +2350,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6fd07ceff09b8f44a8dfc4d1f98f018
-      internalID: 426925384
+      spriteID: 7a286fc5c0747e1469e6380cb66bb732
+      internalID: 743838994
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 8_sword_warrior_black_armor_no_swords-Sheet_107
+      name: 8_sword_warrior_black_armor-Sheet 1_107
       rect:
         serializedVersion: 2
         x: 2240
@@ -2371,8 +2371,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58aa070e3959cb24ab8bdf0285b25e5c
-      internalID: -1055099512
+      spriteID: 1bb49ccdf5f60294eb44eddea6c6846a
+      internalID: 84586590
       vertices: []
       indices: 
       edges: []
@@ -2388,114 +2388,114 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      8_sword_warrior_black_armor_no_swords-Sheet_0: -703636112
-      8_sword_warrior_black_armor_no_swords-Sheet_1: 1402342104
-      8_sword_warrior_black_armor_no_swords-Sheet_10: 1526143606
-      8_sword_warrior_black_armor_no_swords-Sheet_100: 1758344141
-      8_sword_warrior_black_armor_no_swords-Sheet_101: 1447377772
-      8_sword_warrior_black_armor_no_swords-Sheet_102: -27437402
-      8_sword_warrior_black_armor_no_swords-Sheet_103: 1632844813
-      8_sword_warrior_black_armor_no_swords-Sheet_104: -2097424094
-      8_sword_warrior_black_armor_no_swords-Sheet_105: -488211903
-      8_sword_warrior_black_armor_no_swords-Sheet_106: 426925384
-      8_sword_warrior_black_armor_no_swords-Sheet_107: -1055099512
-      8_sword_warrior_black_armor_no_swords-Sheet_11: -782791393
-      8_sword_warrior_black_armor_no_swords-Sheet_12: 1369120622
-      8_sword_warrior_black_armor_no_swords-Sheet_13: 908553691
-      8_sword_warrior_black_armor_no_swords-Sheet_14: 1712450781
-      8_sword_warrior_black_armor_no_swords-Sheet_15: 94567088
-      8_sword_warrior_black_armor_no_swords-Sheet_16: 1546259467
-      8_sword_warrior_black_armor_no_swords-Sheet_17: 555432025
-      8_sword_warrior_black_armor_no_swords-Sheet_18: 1831564982
-      8_sword_warrior_black_armor_no_swords-Sheet_19: -104328378
-      8_sword_warrior_black_armor_no_swords-Sheet_2: -1095135247
-      8_sword_warrior_black_armor_no_swords-Sheet_20: 1034851876
-      8_sword_warrior_black_armor_no_swords-Sheet_21: -1811793809
-      8_sword_warrior_black_armor_no_swords-Sheet_22: -892680927
-      8_sword_warrior_black_armor_no_swords-Sheet_23: 1828542215
-      8_sword_warrior_black_armor_no_swords-Sheet_24: -1986678326
-      8_sword_warrior_black_armor_no_swords-Sheet_25: -817739045
-      8_sword_warrior_black_armor_no_swords-Sheet_26: 1481126699
-      8_sword_warrior_black_armor_no_swords-Sheet_27: 1413120728
-      8_sword_warrior_black_armor_no_swords-Sheet_28: -1727924148
-      8_sword_warrior_black_armor_no_swords-Sheet_29: -1196324263
-      8_sword_warrior_black_armor_no_swords-Sheet_3: 385924576
-      8_sword_warrior_black_armor_no_swords-Sheet_30: -1673244570
-      8_sword_warrior_black_armor_no_swords-Sheet_31: 308631243
-      8_sword_warrior_black_armor_no_swords-Sheet_32: -877449425
-      8_sword_warrior_black_armor_no_swords-Sheet_33: -916508242
-      8_sword_warrior_black_armor_no_swords-Sheet_34: 609088047
-      8_sword_warrior_black_armor_no_swords-Sheet_35: 336247913
-      8_sword_warrior_black_armor_no_swords-Sheet_36: 1847296210
-      8_sword_warrior_black_armor_no_swords-Sheet_37: -509429389
-      8_sword_warrior_black_armor_no_swords-Sheet_38: -817661497
-      8_sword_warrior_black_armor_no_swords-Sheet_39: -1831912163
-      8_sword_warrior_black_armor_no_swords-Sheet_4: 515488092
-      8_sword_warrior_black_armor_no_swords-Sheet_40: -726965099
-      8_sword_warrior_black_armor_no_swords-Sheet_41: -1599959491
-      8_sword_warrior_black_armor_no_swords-Sheet_42: -386486290
-      8_sword_warrior_black_armor_no_swords-Sheet_43: -1696044775
-      8_sword_warrior_black_armor_no_swords-Sheet_44: 1562872918
-      8_sword_warrior_black_armor_no_swords-Sheet_45: 824099525
-      8_sword_warrior_black_armor_no_swords-Sheet_46: -1864096147
-      8_sword_warrior_black_armor_no_swords-Sheet_47: -1124933181
-      8_sword_warrior_black_armor_no_swords-Sheet_48: 1730213545
-      8_sword_warrior_black_armor_no_swords-Sheet_49: 568534216
-      8_sword_warrior_black_armor_no_swords-Sheet_5: -994411433
-      8_sword_warrior_black_armor_no_swords-Sheet_50: -1988649056
-      8_sword_warrior_black_armor_no_swords-Sheet_51: -1479242628
-      8_sword_warrior_black_armor_no_swords-Sheet_52: 1536840745
-      8_sword_warrior_black_armor_no_swords-Sheet_53: -242915894
-      8_sword_warrior_black_armor_no_swords-Sheet_54: 136809067
-      8_sword_warrior_black_armor_no_swords-Sheet_55: -885389333
-      8_sword_warrior_black_armor_no_swords-Sheet_56: -1201047763
-      8_sword_warrior_black_armor_no_swords-Sheet_57: 992374487
-      8_sword_warrior_black_armor_no_swords-Sheet_58: 1261512374
-      8_sword_warrior_black_armor_no_swords-Sheet_59: -1252867892
-      8_sword_warrior_black_armor_no_swords-Sheet_6: 825023055
-      8_sword_warrior_black_armor_no_swords-Sheet_60: 1613828209
-      8_sword_warrior_black_armor_no_swords-Sheet_61: 357829110
-      8_sword_warrior_black_armor_no_swords-Sheet_62: -374399308
-      8_sword_warrior_black_armor_no_swords-Sheet_63: 149294660
-      8_sword_warrior_black_armor_no_swords-Sheet_64: 730866418
-      8_sword_warrior_black_armor_no_swords-Sheet_65: -495676807
-      8_sword_warrior_black_armor_no_swords-Sheet_66: -2140218869
-      8_sword_warrior_black_armor_no_swords-Sheet_67: -1517203127
-      8_sword_warrior_black_armor_no_swords-Sheet_68: -1985170222
-      8_sword_warrior_black_armor_no_swords-Sheet_69: 1157047237
-      8_sword_warrior_black_armor_no_swords-Sheet_7: 1923723807
-      8_sword_warrior_black_armor_no_swords-Sheet_70: -645343519
-      8_sword_warrior_black_armor_no_swords-Sheet_71: 597039559
-      8_sword_warrior_black_armor_no_swords-Sheet_72: 475097860
-      8_sword_warrior_black_armor_no_swords-Sheet_73: -756000295
-      8_sword_warrior_black_armor_no_swords-Sheet_74: 450017021
-      8_sword_warrior_black_armor_no_swords-Sheet_75: 560726803
-      8_sword_warrior_black_armor_no_swords-Sheet_76: -1887790621
-      8_sword_warrior_black_armor_no_swords-Sheet_77: -152693230
-      8_sword_warrior_black_armor_no_swords-Sheet_78: 51523491
-      8_sword_warrior_black_armor_no_swords-Sheet_79: -1034575119
-      8_sword_warrior_black_armor_no_swords-Sheet_8: -306180498
-      8_sword_warrior_black_armor_no_swords-Sheet_80: 436460341
-      8_sword_warrior_black_armor_no_swords-Sheet_81: 1860002919
-      8_sword_warrior_black_armor_no_swords-Sheet_82: -1409406830
-      8_sword_warrior_black_armor_no_swords-Sheet_83: 444427081
-      8_sword_warrior_black_armor_no_swords-Sheet_84: -859087893
-      8_sword_warrior_black_armor_no_swords-Sheet_85: 1732114587
-      8_sword_warrior_black_armor_no_swords-Sheet_86: -1198127429
-      8_sword_warrior_black_armor_no_swords-Sheet_87: -1370141086
-      8_sword_warrior_black_armor_no_swords-Sheet_88: -407122738
-      8_sword_warrior_black_armor_no_swords-Sheet_89: 189689266
-      8_sword_warrior_black_armor_no_swords-Sheet_9: 1457514460
-      8_sword_warrior_black_armor_no_swords-Sheet_90: -1134760932
-      8_sword_warrior_black_armor_no_swords-Sheet_91: 820111713
-      8_sword_warrior_black_armor_no_swords-Sheet_92: 896863728
-      8_sword_warrior_black_armor_no_swords-Sheet_93: 1002699772
-      8_sword_warrior_black_armor_no_swords-Sheet_94: 1377622386
-      8_sword_warrior_black_armor_no_swords-Sheet_95: -1221073574
-      8_sword_warrior_black_armor_no_swords-Sheet_96: -1820740508
-      8_sword_warrior_black_armor_no_swords-Sheet_97: 527693249
-      8_sword_warrior_black_armor_no_swords-Sheet_98: 1827346788
-      8_sword_warrior_black_armor_no_swords-Sheet_99: 1434559008
+      8_sword_warrior_black_armor-Sheet 1_0: 1031829002
+      8_sword_warrior_black_armor-Sheet 1_1: 619890760
+      8_sword_warrior_black_armor-Sheet 1_10: -1930377655
+      8_sword_warrior_black_armor-Sheet 1_100: -1365342088
+      8_sword_warrior_black_armor-Sheet 1_101: -2093666722
+      8_sword_warrior_black_armor-Sheet 1_102: -553696158
+      8_sword_warrior_black_armor-Sheet 1_103: 71013253
+      8_sword_warrior_black_armor-Sheet 1_104: -1921973597
+      8_sword_warrior_black_armor-Sheet 1_105: -1536631518
+      8_sword_warrior_black_armor-Sheet 1_106: 743838994
+      8_sword_warrior_black_armor-Sheet 1_107: 84586590
+      8_sword_warrior_black_armor-Sheet 1_11: 656580302
+      8_sword_warrior_black_armor-Sheet 1_12: 1451546328
+      8_sword_warrior_black_armor-Sheet 1_13: -175150139
+      8_sword_warrior_black_armor-Sheet 1_14: -1019139467
+      8_sword_warrior_black_armor-Sheet 1_15: -126325121
+      8_sword_warrior_black_armor-Sheet 1_16: -46405569
+      8_sword_warrior_black_armor-Sheet 1_17: 162430504
+      8_sword_warrior_black_armor-Sheet 1_18: -598631724
+      8_sword_warrior_black_armor-Sheet 1_19: 2000562351
+      8_sword_warrior_black_armor-Sheet 1_2: 1453044684
+      8_sword_warrior_black_armor-Sheet 1_20: -999334487
+      8_sword_warrior_black_armor-Sheet 1_21: -167029170
+      8_sword_warrior_black_armor-Sheet 1_22: 979644130
+      8_sword_warrior_black_armor-Sheet 1_23: 178946893
+      8_sword_warrior_black_armor-Sheet 1_24: 1516783403
+      8_sword_warrior_black_armor-Sheet 1_25: 1742291212
+      8_sword_warrior_black_armor-Sheet 1_26: 62894250
+      8_sword_warrior_black_armor-Sheet 1_27: -1862235042
+      8_sword_warrior_black_armor-Sheet 1_28: 490301416
+      8_sword_warrior_black_armor-Sheet 1_29: 1456339075
+      8_sword_warrior_black_armor-Sheet 1_3: -176566907
+      8_sword_warrior_black_armor-Sheet 1_30: -1291285718
+      8_sword_warrior_black_armor-Sheet 1_31: -408788932
+      8_sword_warrior_black_armor-Sheet 1_32: 1545606590
+      8_sword_warrior_black_armor-Sheet 1_33: 1126129688
+      8_sword_warrior_black_armor-Sheet 1_34: 1110886966
+      8_sword_warrior_black_armor-Sheet 1_35: -1543593050
+      8_sword_warrior_black_armor-Sheet 1_36: -196151406
+      8_sword_warrior_black_armor-Sheet 1_37: -500397462
+      8_sword_warrior_black_armor-Sheet 1_38: 1334079034
+      8_sword_warrior_black_armor-Sheet 1_39: 1532685577
+      8_sword_warrior_black_armor-Sheet 1_4: 978061596
+      8_sword_warrior_black_armor-Sheet 1_40: 2051599216
+      8_sword_warrior_black_armor-Sheet 1_41: -785669331
+      8_sword_warrior_black_armor-Sheet 1_42: -1284103439
+      8_sword_warrior_black_armor-Sheet 1_43: -891996753
+      8_sword_warrior_black_armor-Sheet 1_44: 424982647
+      8_sword_warrior_black_armor-Sheet 1_45: 2062715520
+      8_sword_warrior_black_armor-Sheet 1_46: -991122924
+      8_sword_warrior_black_armor-Sheet 1_47: 1642312994
+      8_sword_warrior_black_armor-Sheet 1_48: -2013806288
+      8_sword_warrior_black_armor-Sheet 1_49: -501574603
+      8_sword_warrior_black_armor-Sheet 1_5: 1832217184
+      8_sword_warrior_black_armor-Sheet 1_50: -1156561619
+      8_sword_warrior_black_armor-Sheet 1_51: -548003110
+      8_sword_warrior_black_armor-Sheet 1_52: 1077716090
+      8_sword_warrior_black_armor-Sheet 1_53: -513894145
+      8_sword_warrior_black_armor-Sheet 1_54: -1711625067
+      8_sword_warrior_black_armor-Sheet 1_55: 716069917
+      8_sword_warrior_black_armor-Sheet 1_56: -862527292
+      8_sword_warrior_black_armor-Sheet 1_57: -85124258
+      8_sword_warrior_black_armor-Sheet 1_58: -663646628
+      8_sword_warrior_black_armor-Sheet 1_59: 2092978699
+      8_sword_warrior_black_armor-Sheet 1_6: -883869068
+      8_sword_warrior_black_armor-Sheet 1_60: 1989070183
+      8_sword_warrior_black_armor-Sheet 1_61: 1319363885
+      8_sword_warrior_black_armor-Sheet 1_62: -1855157651
+      8_sword_warrior_black_armor-Sheet 1_63: -184308166
+      8_sword_warrior_black_armor-Sheet 1_64: -1263662288
+      8_sword_warrior_black_armor-Sheet 1_65: 262832913
+      8_sword_warrior_black_armor-Sheet 1_66: 493100269
+      8_sword_warrior_black_armor-Sheet 1_67: -52569333
+      8_sword_warrior_black_armor-Sheet 1_68: 246927494
+      8_sword_warrior_black_armor-Sheet 1_69: -927791952
+      8_sword_warrior_black_armor-Sheet 1_7: 1813257880
+      8_sword_warrior_black_armor-Sheet 1_70: -1250209593
+      8_sword_warrior_black_armor-Sheet 1_71: -970172901
+      8_sword_warrior_black_armor-Sheet 1_72: 1297574303
+      8_sword_warrior_black_armor-Sheet 1_73: -528204986
+      8_sword_warrior_black_armor-Sheet 1_74: 197301123
+      8_sword_warrior_black_armor-Sheet 1_75: 1858748988
+      8_sword_warrior_black_armor-Sheet 1_76: -464494774
+      8_sword_warrior_black_armor-Sheet 1_77: -346201386
+      8_sword_warrior_black_armor-Sheet 1_78: -481057531
+      8_sword_warrior_black_armor-Sheet 1_79: 287131343
+      8_sword_warrior_black_armor-Sheet 1_8: -647268239
+      8_sword_warrior_black_armor-Sheet 1_80: -2042897111
+      8_sword_warrior_black_armor-Sheet 1_81: 1324062783
+      8_sword_warrior_black_armor-Sheet 1_82: 780152149
+      8_sword_warrior_black_armor-Sheet 1_83: 1298486399
+      8_sword_warrior_black_armor-Sheet 1_84: -2096388132
+      8_sword_warrior_black_armor-Sheet 1_85: -1081295658
+      8_sword_warrior_black_armor-Sheet 1_86: -591239115
+      8_sword_warrior_black_armor-Sheet 1_87: -1676027257
+      8_sword_warrior_black_armor-Sheet 1_88: 382286041
+      8_sword_warrior_black_armor-Sheet 1_89: 747351936
+      8_sword_warrior_black_armor-Sheet 1_9: 803355014
+      8_sword_warrior_black_armor-Sheet 1_90: -216374815
+      8_sword_warrior_black_armor-Sheet 1_91: -1861600559
+      8_sword_warrior_black_armor-Sheet 1_92: 1955998800
+      8_sword_warrior_black_armor-Sheet 1_93: -1239287806
+      8_sword_warrior_black_armor-Sheet 1_94: -2047641519
+      8_sword_warrior_black_armor-Sheet 1_95: -1334820813
+      8_sword_warrior_black_armor-Sheet 1_96: 492618721
+      8_sword_warrior_black_armor-Sheet 1_97: -859882361
+      8_sword_warrior_black_armor-Sheet 1_98: 498332116
+      8_sword_warrior_black_armor-Sheet 1_99: 60770511
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

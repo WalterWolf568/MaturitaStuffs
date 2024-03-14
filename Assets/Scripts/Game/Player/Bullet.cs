@@ -6,7 +6,7 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     public bool friendly;
-    public int bulletDamage;
+    public float bulletDamage;
     private void Awake()
     {
         Destroy(gameObject, 5f);
@@ -21,6 +21,12 @@ public class Bullet : MonoBehaviour
                 healthController.TakeDamage(bulletDamage);
                 Destroy(gameObject);
 
+            }
+            else if (collision.GetComponent<BossDeath>())
+            {
+                HealthController healthController = collision.GetComponent<HealthController>();
+                healthController.TakeDamage(bulletDamage);
+                Destroy(gameObject);
             }
         }
         else

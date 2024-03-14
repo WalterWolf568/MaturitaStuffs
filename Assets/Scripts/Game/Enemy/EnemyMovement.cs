@@ -21,9 +21,9 @@ public class Enemy : MonoBehaviour
     {
         _rigidbody = GetComponent<Rigidbody2D>();
         _Graphics = transform.Find("Graphics").gameObject;
+        speed = speed * DifficultyController.Instance.DifficultySpeed[DifficultyController.Instance.Difficulty];
     }
 
-    // Update is called once per frame
     void Update()
     {
         SetDirection();

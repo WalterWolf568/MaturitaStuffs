@@ -10,11 +10,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 309113610119680123, guid: 0f4731cb514ecf74da024fb7f986a2eb, type: 3}
       propertyPath: currentHealth
-      value: 20
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 309113610119680123, guid: 0f4731cb514ecf74da024fb7f986a2eb, type: 3}
       propertyPath: maximumHealth
-      value: 20
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 1838119012916571393, guid: 0f4731cb514ecf74da024fb7f986a2eb, type: 3}
       propertyPath: m_Name
@@ -22,11 +22,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2894303981984330370, guid: 0f4731cb514ecf74da024fb7f986a2eb, type: 3}
       propertyPath: speed
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2894303981984330370, guid: 0f4731cb514ecf74da024fb7f986a2eb, type: 3}
       propertyPath: rotationSpeed
-      value: 1500
+      value: 1750
       objectReference: {fileID: 0}
     - target: {fileID: 3638598015775986306, guid: 0f4731cb514ecf74da024fb7f986a2eb, type: 3}
       propertyPath: _killExperience

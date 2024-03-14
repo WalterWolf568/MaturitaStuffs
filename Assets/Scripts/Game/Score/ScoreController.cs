@@ -11,7 +11,7 @@ public class ScoreController : MonoBehaviour
     public void AddScore(int amount)
     {
         
-        Score += amount;
+        Score += (int)(amount * DifficultyController.Instance.DifficultyScore[DifficultyController.Instance.Difficulty]);
         OnScoreChanged.Invoke();
         CheckHighScore();
     }

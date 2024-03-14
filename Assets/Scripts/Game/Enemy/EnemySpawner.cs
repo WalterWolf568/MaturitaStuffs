@@ -24,15 +24,18 @@ public class EnemySpawner : MonoBehaviour
     private float frequencyOfSpawn = 0;
 
     public bool isSpawning = false;
+    public bool isBossFight = false;
 
 
     public HealthController _healthController;
     public WaveController _waveController;
+    public BossFightController _bossFightController;
     private int i = 0;
 
     private void Awake()
     {
         SetTimeUntilSpawn();
+        _bossFightController = FindObjectOfType<BossFightController>();
         _healthController = FindObjectOfType<HealthController>();
         _waveController = FindObjectOfType<WaveController>();
         _healthController.OnDied.AddListener(StopSpawning);
@@ -40,30 +43,39 @@ public class EnemySpawner : MonoBehaviour
 
     private void Update()
     {
-       if(isSpawning == false)
+        isBossFight = _bossFightController.isBossFightInProgress;
+        if(isBossFight)
         {
-            _waveController.CreateWave();
-            WavePause();
-            isSpawning = true;
+
         }
         else
         {
-            _timeUntilSpawn -= Time.deltaTime;
-            if (_timeUntilSpawn <= 0)
+            if (isSpawning == false)
             {
-                SetSpawnPosition();
-                if (i >= _waveController.WaveSize)
+                _waveController.CreateWave();
+                WavePause();
+                isSpawning = true;
+            }
+            else
+            {
+                _timeUntilSpawn -= Time.deltaTime;
+                if (_timeUntilSpawn <= 0)
                 {
-                    i = 0;
-                    isSpawning = false;
+                    SetSpawnPosition();
+                    if (i >= _waveController.WaveSize)
+                    {
+                        i = 0;
+                        isSpawning = false;
+                    }
+                    _enemyPrefab = _waveController.Wave[i];
+                    GameObject Enemy = Instantiate(_enemyPrefab, _spawnPosition, transform.rotation);
+                    Enemy.GetComponentInChildren<HealthController>().AddMaxHealth(_waveController.ExtraHealth);
+                    SetTimeUntilSpawn();
+                    i++;
                 }
-                _enemyPrefab = _waveController.Wave[i];
-                GameObject Enemy = Instantiate(_enemyPrefab, _spawnPosition, transform.rotation);
-                Enemy.GetComponentInChildren<HealthController>().AddMaxHealth(_waveController.ExtraHealth);
-                SetTimeUntilSpawn();
-                i++;
             }
         }
+       
     }
     private void SetTimeUntilSpawn()
     {

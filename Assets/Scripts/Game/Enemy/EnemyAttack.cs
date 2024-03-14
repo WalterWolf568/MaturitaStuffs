@@ -14,11 +14,12 @@ public class EnemyAttack : MonoBehaviour
         float multiplier = DifficultyController.Instance.DifficultyDamage[DifficultyController.Instance.Difficulty];
         damageAmount = damageAmount * multiplier;
     }
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnCollisionStay2D(Collision2D collision)
     {
         if (collision.gameObject.GetComponent<PlayerMovement>())
         {
-            HealthController healthController = collision.GetComponent<HealthController>();
+            var healthController = collision.gameObject.GetComponent<HealthController>();
+
             healthController.TakeDamage(damageAmount);
         }
     }

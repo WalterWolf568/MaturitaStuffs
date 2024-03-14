@@ -20,6 +20,7 @@ public class BossShoot : MonoBehaviour
     {
         GameObject bullet = Instantiate(wheelPrefab, transform.position, transform.rotation);
         Rigidbody2D rigidbody = bullet.GetComponent<Rigidbody2D>();
+        bullet.GetComponent<BossBullet>().bulletDamage = 20;
         rigidbody.transform.Rotate(0, 0, 90f);
         rigidbody.velocity = bulletSpeed * transform.right;
         Destroy(bullet, 7f);

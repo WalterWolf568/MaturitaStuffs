@@ -9,9 +9,10 @@ public class WaveController : MonoBehaviour
 
     [SerializeField]
     private GameObject _basicEnemyPrefab;
-
     [SerializeField]
     private GameObject _shooterEnemyPrefab;
+    [SerializeField]
+    private GameObject _sprinterEnemyPrefab;
 
     public BossFightController bossFightController;
 
@@ -36,7 +37,7 @@ public class WaveController : MonoBehaviour
             ExtraHealth += 10;
             UpgradeWave += 5;
         }
-        if (WaveNumber > 10)
+        if (WaveNumber == 10)
         {
             bossFightController.StartBossFight();
         }
@@ -44,14 +45,18 @@ public class WaveController : MonoBehaviour
         {
 
                 int random = Random.Range(1, 11);
-                if (random == 1 || random == 2)
-                {
-                    Wave.Add(_shooterEnemyPrefab);
-                }
-                else
-                {
-                    Wave.Add(_basicEnemyPrefab);
-                }
+            if (random == 1 || random == 2)
+            {
+                Wave.Add(_shooterEnemyPrefab);
+            }
+            else if (random == 3 || random == 4 || random == 5)
+            {
+                Wave.Add( _sprinterEnemyPrefab);
+            }
+            else
+            {
+                Wave.Add(_basicEnemyPrefab);
+            }
             
         }
 

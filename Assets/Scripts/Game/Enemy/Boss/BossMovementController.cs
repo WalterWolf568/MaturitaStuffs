@@ -70,7 +70,7 @@ public class BossMovementController : MonoBehaviour
         while (Bossfight)
         {
             SetNextPosition();
-            yield return new WaitForSeconds(6f); // Adjust as needed
+            yield return new WaitForSeconds(6f); 
         }
     }
     public IEnumerator BossShootCoroutine()
@@ -78,7 +78,7 @@ public class BossMovementController : MonoBehaviour
         while (Bossfight)
         {
             bossShoot.FireBullet();
-            yield return new WaitForSeconds(2f);
+            yield return new WaitForSeconds(2.5f);
         }
     }
     private void SetNextPosition()

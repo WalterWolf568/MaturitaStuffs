@@ -50,9 +50,15 @@ TagManager:
   - name: Collectable
     uniqueID: 4055825075
     locked: 0
-  - name: Player
-    uniqueID: 4292150687
+  - name: Tilemap
+    uniqueID: 3839057351
+    locked: 0
+  - name: TilemapDetails
+    uniqueID: 1081660433
     locked: 0
   - name: Enemy
     uniqueID: 1738829947
+    locked: 0
+  - name: Player
+    uniqueID: 4292150687
     locked: 0

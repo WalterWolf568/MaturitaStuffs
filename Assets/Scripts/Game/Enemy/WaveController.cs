@@ -36,7 +36,7 @@ public class WaveController : MonoBehaviour
             ExtraHealth += 10;
             UpgradeWave += 5;
         }
-        if (WaveNumber > 19)
+        if (WaveNumber > 10)
         {
             bossFightController.StartBossFight();
         }
